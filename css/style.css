@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-style: 17px;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+.list-item {
+    padding-left: 15px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+hr {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 400;
+}
+
+a {
+    color: #00aced;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0C8EBF;
+    text-decoration: underline;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    background-color: #22B0EE;
+    margin-bottom: 30px;
+    font-style: 15px;
+}
+
+.list {
+    display: inline-block;
+    padding: 15px;
+}
+
+.list:hover {
+    cursor: pointer;
+    background-color: #1A97CE;
+}
+
+.menu .list a {
+    color: white;
+}
+
+.menu .list a:hover {
+    text-decoration: none;
+}
+
+.header {
+    background: #1A97CE;
+    color: white;
+    padding: 30px 0;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.header-title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.card {
+    border: 1px solid #eee;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 6px;
+}
+
+.card-title {
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group .form {
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #aaa;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+.form-group .form:focus {
+    border: 1px solid #0C8EBF;
+}
+
+.button {
+    padding: 13px 20px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button.blue {
+    background-color: #28A4DA;
+}
+
+.button.blue:hover {
+    background-color: #0F82B4;
+}
+
+.wrapper {
+    width: 50%;
+    margin: auto;
+}
+
+textarea.form {
+    padding: 10px;
+    height: auto!important;
+    resize: none;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.content, .sidebar {
+    padding: 30px;
+}
+
+.content {
+    float: left;
+    width: 750px;
+}
+
+.sidebar {
+    float: right;
+    width: 300px;
+    border-left: 1px solid #ddd;
+}
+
+.navbar-sidebar {
+    margin-bottom: 30px;
+}
+
+.navbar-sidebar li {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    padding-left: 0;
+}
+
+.navbar-sidebar li a {
+    color: #1A97CE;
+}
+
+.navbar-sidebar li a:hover {
+    text-decoration: none;
+    color: #2CB8F5;
+}
+
+/* style footer */
+.footer {
+    clear: both;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 30px;
+}
+
+.footer-title {
+    margin-bottom: 10px;
+}
+
+.deskripsi-footer {
+    line-height: 0;
+}
+
+.medsos {
+    color: #fff;
+}
+
+.well {
+    padding: 20px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.well.grey {
+    background: #444;
+    color: white;
+}
+
+.well.blue {
+    background: #0C8EBF;
+    color: white;
+}
+
+.well.orangered {
+    background: orangered;
+    color: white;
+}
